@@ -1,0 +1,28 @@
+nav{
+  background-color:#8A572A;
+  height: 75px;
+}
+.tasks h4{
+  display:inline-block;
+  margin-right:10px;
+  margin-left:20px;
+}
+
+input {
+  margin: 10px 0;
+  width: 100%;
+}
+.waiting{
+  position:fixed;
+  height:100vh;
+  width:100%;
+  left:0px;
+  top:0px;
+  text-align:center;
+  background:#ddd;
+  opacity: 0.4;
+}
+.waiting i{
+  position:absolute;
+  top:45%;
+}
